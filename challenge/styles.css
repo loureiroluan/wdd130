@@ -1,0 +1,45 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header a:hover {
+    color: black;
+    background-color:steelblue;
+}
+img{
+    width:20%;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: steelblue;
+}
+
+
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
