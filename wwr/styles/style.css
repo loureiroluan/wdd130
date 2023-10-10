@@ -31,6 +31,9 @@ body {
 header {
     background-color:rgba(20,30,13, .7);
 }
+a {
+    text-decoration: none;
+}
 nav a:hover {
     background-color: white;
     color: #48d57e ;
@@ -58,6 +61,7 @@ footer {
 }    
 footer a{
     text-decoration: none;
+    background-color: #48d57e;
 }
 footer p {
     font-size: 1.2em;
