@@ -68,10 +68,12 @@ footer {
 footer a{
     text-decoration: none;
     background-color: #48d57e;
+    color: #f9ec77;
 }
 footer p {
     font-size: 1.2em;
     background-color: #48d57e;
+    color: #f9ec77;
 }
 footer p a:hover {
     text-decoration: underline;
