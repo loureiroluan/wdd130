@@ -1,13 +1,13 @@
 #content {
     max-width: 1600px;
-    margin: 0 auto; /* Center the content horizontally */
-    padding: 20px; /* Add some padding for spacing */
+    margin: 0 auto; 
+    padding: 20px; 
 }
-
 nav a {
     text-align: center;
     color: #f9ec77;
     text-decoration: none;
+    padding: 14px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -43,16 +43,11 @@ nav a:hover {
 
 .book:hover, .join:hover{
     background-color: #48d57e;
-    text-decoration: none;
 }
 .msg{
     background-color: #48d57e;
 }
-
-.icon {
-    width: 80px;
-}
-.logo {
+.logo ,.icon {
     width: 80px;
 }
 #hero-img{
@@ -60,13 +55,14 @@ nav a:hover {
 }
 footer {
     background-color: #48d57e;
+}    
+footer a{
+    text-decoration: none;
 }
 footer p {
     font-size: 1.2em;
-    background-color:#48d57e;
-    text-decoration: none;
 }
 footer p a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }      
        
