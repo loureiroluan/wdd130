@@ -183,8 +183,10 @@ main section img {
     margin: 200px 0;
     background-color: #48d57e;
     border-radius: 5px;
-    padding: 1em;
-    
+    padding: 1em;    
+}
+.colorado-card .card-img {
+    margin-bottom: 20px;
 }
 .salmon-card {
     grid-column: 5/7;
@@ -192,7 +194,10 @@ main section img {
     margin: 200px 0;
     background-color: #48d57e;
     border-radius: 5px;
-    padding: 1em;
+    padding: 1em;    
+}
+.salmon-card .card-img {
+    margin-bottom: 20px;
 }
 .narrow-card {
     grid-column: 8/10;
@@ -200,8 +205,10 @@ main section img {
     margin: 200px 0;
     background-color: #48d57e;
     border-radius: 5px;
-    padding: 1em;
-    
+    padding: 1em;    
+}
+.narrow-card .card-img {
+    margin-bottom: 20px;
 }    
 footer {
     background-color: #48d57e;
