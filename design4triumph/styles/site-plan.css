@@ -8,8 +8,10 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #000000   ;
   --secondary-color: #FFCC00 ;
-  --accent1-color: #8A8A8A;
-  --accent2-color: white;
+  --accent1-color: #FB8500;
+  --accent2-color: #219EBC;
+  --accent3-color: #8ECAE6;
+  --accent4-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "League Spartan", sans-serif;
@@ -24,7 +26,7 @@ Fonts are separated by a | */
   --nav-link-color: black;
   --nav-background-color: #FFCC00;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #8A8A8A;
+  --nav-hover-background-color: #8ECAE6;
 }
 
 
@@ -79,7 +81,7 @@ p {
   background-color: #999;
 }
 .colors td{
-  width: 25%;
+  width: 15%;
   height: 3em;
 }
 
@@ -94,6 +96,12 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+.accent3{
+  background-color: var(--accent3-color);
+}
+.accent4{
+  background-color: var(--accent4-color);
 }
 
 p.colored {

@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design 4 Triumph Homepage</title>
-</head>
-<body>
-    <header>
-    <a href="index.html">
-        <img src="images/design4triumph-logo.png" alt="Logo" width="800" height="700">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design 4 Triumph Homepage</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                    <a href="index.html" class="logo-link">
+                        <img class="logo" src="images/design4triumph-logo.png" alt="Logo">
+                    </a>
+                <nav>
+                    <a class="nav-item" href="index.html">Home</a>
+                    <a class="nav-item" href="work.html">Work</a>
+                    <a class="nav-item" href="stories.html">Stories</a>
+                </nav>
+            </header>
+            <main>
+                <img class="hero-img" src="images/hero-image-home-page.jpg" alt="image for homepage">
+                <h1 class="hero-title"> Design4Triumph, your gateway to the world of creative web development and design</h1>
 
-    </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="work.html">Work</a>
-            <a href="stories.html">Stories</a>
-        </nav>
-    </header>
-    <main>
-        <img src="images/rsz_1pexels-pixabay-39284.jpg" alt="image for homepage">
-        <h1> Design4Triumph, your gateway to the world of creative web development and design</h1> 
-        
-        <p>Introduction</p>
-        <p>Hi there! I'm Luan, and I'm thrilled to have you here. Web development and design aren't just my profession; they're
-            my passion.
-            At Design4Triumph, I'm dedicated to creating visually appealing and interactive websites that leave a lasting
-            impression.
-            My journey in the world of web development is a story of challenges, learning, and growth. Join me as we explore
-            this exciting field together.</p>
-        <img src="images/rsz_luan_loureiro_picture.jpg" alt="image for homepage">
+                <div class="bkg bkg-1"></div>
+                <h2 class="sec-title sec-title-1">Introduction</h2>
+                <p class="sec-text sec-text-1">Hi there! I'm Luan, and I'm thrilled to have you here. Web development and design aren't just my profession; they're
+                    my passion.
+                    At Design4Triumph, I'm dedicated to creating visually appealing and interactive websites that leave a lasting
+                    impression.
+                    My journey in the world of web development is a story of challenges, learning, and growth. Join me as we explore
+                    this exciting field together.</p>
+                <img class="sec-img sec-img-1" src="images/rsz_luan_loureiro_picture.jpg" 
+                    alt="image for homepage">
 
-        <p>Featured Project</p>
-        <ul>
-            <li>Discover my featured project that encapsulates my design philosophy</li> 
-            <li>Whether it's a sleek e-commerce site or an engaging blog platform</li>
-            <li>This project demonstrates my ability to blend creativity and functionality seamlessly.</li>
-        </ul>
-        <p>Project Highlights</p>
-        <p>As a web developer, I've had the privilege of working on diverse projects, each with its unique challenges and
-            innovations.
-            From responsive designs to optimizing user experiences, my projects reflect a commitment to excellence.
-            Explore some of my recent work and see how I've helped clients transform their digital presence.</p>
-            <img src="images/rsz_1pexels-picjumbocom-196644.jpg" alt="image for homepage">
   
-        <p>What Clients Say</p>
-        <p>Don't just take my word for it; hear what my clients and employers have to say about my work.
-            Their feedback speaks to my dedication and expertise in web development and design.</p>
-          <img src="images/rsz_1pexels-pixabay-270408.jpg" alt="image for homepage">
-            
+                <div class="bkg bkg-2"></div>
+                <h2 class="sec-title sec-title-2">Project Highlights</h2>
+                <p class="sec-text sec-text-2"> As a web developer, I've had the privilege of working on diverse projects, each with its unique challenges and
+                    innovations.
+                    From responsive designs to optimizing user experiences, my projects reflect a commitment to excellence.
+                    Explore some of my recent work and see how I've helped clients transform their digital presence.</p>
+                    <img class="sec-img sec-img-2" src="images/computer-image-for-home-page.png" alt="image for homepage">
 
-    </main>
-    <footer>
-        <p>&copy; Luan Loureiro - WDD130</p>
-        <a href="site-plan.html">Site Plan</a>
-    </footer>
-    
-</body>
+
+                <div class="bkg bkg-3"></div>
+                <h2 class="sec-title sec-title-3">Featured Project</h2>
+                <ul class="sec-text sec-text-3">
+                    <li>Discover my featured project that encapsulates my design philosophy</li>
+                    <li>Whether it's a sleek e-commerce site or an engaging blog platform</li>
+                    <li>This project demonstrates my ability to blend creativity and functionality seamlessly.</li>
+                </ul>
+
+                <div class="bkg bkg-2"></div>
+                <h2 class="sec-title sec-title-2">Project Highlights</h2>
+                <p class="sec-text sec-text-2"> As a web developer, I've had the privilege of working on diverse projects, each with its unique challenges and
+                    innovations.
+                    From responsive designs to optimizing user experiences, my projects reflect a commitment to excellence.
+                    Explore some of my recent work and see how I've helped clients transform their digital presence.</p>
+                    <img class="sec-img sec-img-2" src="images/computer-image-for-home-page.png" alt="image for homepage">
+            
+                <div id="background"></div> 
+                <img class="feedback" src="images/rsz_1pexels-pixabay-270408.jpg" alt="image for homepage">
+                <section class="msg">
+                    <h2>What Clients Say</h2>
+                    <p>Don't just take my word for it; hear what my clients and employers have to say about my work.
+                        Their feedback speaks to my dedication and expertise in web development and design. </p>
+                    <a class='see' href="stories.html">See More</a>
+                </section>  
+            </main>
+            <footer>
+                <p class= "copyright">&copy; Luan Loureiro - WDD130</p>
+                <a class="ft-link" href="site-plan.html">Site Plan</a>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram icon">
+                    </a>
+                </div>
+            </footer>
+                </div>
+        </div>   
+    </body>
 </html>
