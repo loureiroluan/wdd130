@@ -142,6 +142,9 @@ img {
     margin: 0 auto;
     background-color: var(--secondary-color);
 }
+.slide-1, .slide-2, .slide-3{
+    width:100% 
+}
 
 /*start work page*/
 #hero {
