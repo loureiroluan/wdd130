@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="content 2">
+    <div class="content">
         <header>
                 <a href="index.html" class="logo-link">
                     <img class="logo" src="images/design4triumph-logo.png" alt="Logo">
@@ -18,39 +18,50 @@
                 <a class="nav-item" href="stories.html">Stories</a>
             </nav>
         </header>
-    <main>
-        <img src="images/rsz_2stockvault-human-resources-management-concept265393.jpg" alt="image for blog page">
-        <h1>Insights and Inspirations</h1>
-        
-        <p>Post: "Designing for Adventure: The Dry Oar Project"
-            In this post, we're delving into the behind-the-scenes of our recent project, "Dry Oar." Creating an e-commerce
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/pexels-pixabay-207896.jpg" alt="River wide image">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Insights and Inspirations</h1>
+                <h4>Come and See</h4>
+                <div class="button-box">
+                    <a class="see-more" href="work.html">See More</a>
+                </div>
+            </section>
+        </div>
+    <main class="stories-grid">
+        <img class="str-1" src="images/rafting59-600.jpg" alt="image for stories page">
+        <h2 class="str-title-1">Designing for Adventure: The Dry Oar Project</h2>
+        <p class="str-text-1">In this post, we're delving into the behind-the-scenes of our recent project, "Dry Oar." Creating an e-commerce
             platform for outdoor enthusiasts was both thrilling and challenging. Here's a closer look at the journey.
         </p>
         
-        <p>The Concept and The Development Process:</p>
-        <p>The idea behind "Dry Oar" was to create a user-friendly platform that offers a diverse range of outdoor gear. We
+        <img class="str-2" src="images/rafting65-600.jpg" alt="images for stories page">
+        <h2 class= "str-title-2">The Concept and The Development Process</h2>
+        <p class="str-text-2">The idea behind "Dry Oar" was to create a user-friendly platform that offers a diverse range of outdoor gear. We
             wanted it to be more than just a website; it needed to embody the spirit of adventure.
             Developing "Dry Oar" was a journey in itself. We faced several challenges, including the need for a responsive
             design and ensuring secure financial transactions. We adopted a mobile-first approach to make the website accessible
             to all, and integrated trusted payment gateways to provide a safe shopping experience.
         </p>
-            <img src="images/rafting59_600.jpg" alt="image for blog page">
-        <p>Lessons Learned:</p>
-        <p>Every project comes with its lessons. "Dry Oar" taught us the importance of adaptability and customer-centric design.
+
+        <h2 class="str-title-3">Lessons Learned</h2>
+        <p class="str-text-3">Every project comes with its lessons. "Dry Oar" taught us the importance of adaptability and customer-centric design.
             It's not just about creating a website; it's about crafting an experience.
             The success of "Dry Oar" is just the beginning. We're committed to continuously improving the platform and expanding
             our product range. The adventure never ends.
-        </p>
-            <img src="images/rafting65_600.jpg" alt="image for blog page">
-        
-        <p>Join the Adventure</p>
-        <p>Are you ready to explore the world of outdoor gear? Join us on this adventure at "Dry Oar." Whether you're a seasoned
-            explorer or just starting your journey, there's something here for everyone.
-        </p>
-        <p>Stay tuned for more exciting projects and insights on web development and design. Our commitment to excellence drives
+
+        <div id="stories-background"></div>
+        <img class="stories" src="images/human-resources-management-concept265393.jpg" alt="images for stories page">
+        <section class="msg-2">
+            <h2>Join the Adventure</h2>
+            <p>Stay tuned for more exciting projects and insights on web development and design. Our commitment to excellence drives
             us forward, and we're excited to share the ride with you.
-        </p>
-            <img src="images/pexels-pixabay-207896.jpg" alt="image for blog page">
+            </p>
+            <a class='join' href="work.html">Join Us</a>
+        </section>
+
     </main>
     <footer>
         <p class= "copyright">&copy; Luan Loureiro - WDD130</p>
@@ -67,6 +78,6 @@
             </a>
         </div>
     </footer>
-    
+    </div>
 </body>
 </html>
