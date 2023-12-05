@@ -557,6 +557,9 @@ footer{
 .ft-link{
     grid-column: 6/8;
 }
+footer .ft-link:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 900px) {
     body {
